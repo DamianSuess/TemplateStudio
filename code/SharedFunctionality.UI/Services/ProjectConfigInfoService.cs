@@ -190,11 +190,13 @@ namespace Microsoft.Templates.UI.Services
                         && fileContent.Contains("public event PropertyChangedEventHandler PropertyChanged;");
                 }
             }
+
             return false;
         }
 
         private bool IsPrism()
         {
+            // TODO: Update to, Prism.DryIoc.Avalonia
             return ContainsNugetPackage("Prism.Unity");
         }
 

@@ -4,10 +4,20 @@
         "displayName": "Community Toolkit",
         "summary": "A modern, fast, modular MVVM library and part of the Windows Community Toolkit.",
         "author": "Microsoft Community",
-        "order": "1",
+        "order": "2",
         "licenses": "[CommunityToolkit.Mvvm](https://github.com/CommunityToolkit/dotnet/blob/main/License.md)",
         "platform": "Avalonia",
         "languages": [ "C#", "F#" ]
+    },
+    {
+        "name": "Prism.Avalonia",
+        "displayName": "Prism Avalonia",
+        "summary": "Cross-platform MVVM framework to quickly implement navigation, dialogs, and event messaging.",
+        "author": "Damian Suess, Avalonia Community",
+        "order": "1",
+        "licenses": "[Prism.Avalonia](https://github.com/AvaloniaCommunity/Prism.Avalonia/blob/develop/LICENSE)",
+        "platform": "Avalonia",
+        "languages": [ "C#" ]
     },
     {
         "name": "ReactiveUI",
