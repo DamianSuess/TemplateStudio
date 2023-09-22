@@ -110,7 +110,6 @@ namespace Microsoft.Templates.UI.Services
             return false;
         }
 
-
         private string InferProjectType(string platform)
         {
             if (IsMenuBar(platform))
@@ -159,7 +158,6 @@ namespace Microsoft.Templates.UI.Services
                 && !FileContainsLine("Views", "ShellWindow.xaml", "<Fluent:Ribbon x:Name=\"ribbonControl\" Grid.Row=\"0\">");
         }
 
-
         private bool IsSplitView(string platform)
         {
             return ExistsFileInProjectPath("ShellWindow.xaml", "Views")
@@ -196,8 +194,7 @@ namespace Microsoft.Templates.UI.Services
 
         private bool IsPrism()
         {
-            // TODO: Update to, Prism.DryIoc.Avalonia
-            return ContainsNugetPackage("Prism.Unity");
+            return ContainsNugetPackage("Prism.DryIoc.Avalonia");
         }
 
         private bool IsMvvmToolkit(string platform)

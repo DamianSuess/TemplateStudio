@@ -16,6 +16,6 @@ namespace Microsoft.Templates.Test
 
         public const string Prism = "Prism";
 
-        public static IEnumerable<string> All => new List<string> { CodeBehind, MVVMToolkit, Prism };
+        public static IEnumerable<string> All => new List<string> { CodeBehind, Prism, MVVMToolkit };
     }
 }
