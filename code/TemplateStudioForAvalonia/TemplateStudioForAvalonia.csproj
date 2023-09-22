@@ -483,6 +483,7 @@
     <Content Include="Templates\Ft\Meadow.CSharp\Param_ProjectName\Param_ProjectName_postaction.csproj">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="Templates\_catalog\frontendframeworks\PrismAvalonia.md" />
     <Page Include="..\SharedStyles\TemplateStudioStyles.xaml">
       <Link>Styles\TemplateStudioStyles.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
@@ -546,6 +547,9 @@
     <Content Include="Templates\Ft\Meadow.CSharp\.template.config\icon.xaml">
       <SubType>Designer</SubType>
       <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_catalog\frontendframeworks\PrismAvalonia.xaml">
+      <SubType>Designer</SubType>
     </Content>
     <VSCTCompile Include="Commands\TemplateStudioForWpfPackage.vsct">
       <Generator>VsctGenerator</Generator>
