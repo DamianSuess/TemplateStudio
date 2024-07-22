@@ -4,9 +4,9 @@
     "classifications": [
         "Universal"
     ],
-    "name": "ts.Avalonia.MVVMToolkit.Project.FSharp",
-    "shortName": "ts.Avalonia.MVVMToolkit.Project.FSharp",
-    "identity": "ts.Avalonia.MVVMToolkit.Project.FSharp",
+    "name": "ts.Avalonia.MVVMToolkit.Project.Browser.FSharp",
+    "shortName": "ts.Avalonia.MVVMToolkit.Project.Browser.FSharp",
+    "identity": "ts.Avalonia.MVVMToolkit.Project.Browser.FSharp",
     "tags": {
         "language": "F#",
         "type": "item",
@@ -14,12 +14,11 @@
         "ts.outputToParent": "true",
         "ts.platform": "Avalonia",
         "ts.version": "1.0.0",
-        "ts.compositionFilter": "$frontendframework == MVVMToolkit & ts.type == project"
+        "ts.compositionFilter": "$projectType == Browser & $frontendframework == MVVMToolkit & ts.type == project"
     },
     "sourceName": "ts.ItemName",
     "preferNameDirectory": true,
     "PrimaryOutputs": [
-        { "path": "Param_ProjectName/Param_ProjectName.fsproj" }
     ],
     "symbols": {
         "ts.rootNamespace": {
@@ -30,19 +29,6 @@
             "type": "parameter",
             "replaces": "Param_ProjectName",
             "fileRename": "Param_ProjectName"
-        },
-        "Framework": {
-            "type": "parameter",
-            "description": "The target framework for the project.",
-            "datatype": "choice",
-            "choices": [
-                {
-                    "choice": "net8.0",
-                    "description": "Target net8.0"
-                }
-            ],
-            "replaces": "FrameworkParameter",
-            "defaultValue": "net8.0"
         }
     }
 }

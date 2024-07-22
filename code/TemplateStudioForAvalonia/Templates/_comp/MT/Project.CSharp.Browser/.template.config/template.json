@@ -4,16 +4,17 @@
     "classifications": [
         "Universal"
     ],
-    "name": "ts.Avalonia.MVVMToolkit.Project.Desktop",
-    "shortName": "ts.Avalonia.MVVMToolkit.Project.Desktop",
-    "identity": "ts.Avalonia.MVVMToolkit.Project.Desktop",
+    "name": "ts.Avalonia.MVVMToolkit.Project.Browser",
+    "shortName": "ts.Avalonia.MVVMToolkit.Project.Browser",
+    "identity": "ts.Avalonia.MVVMToolkit.Project.Browser",
     "tags": {
         "language": "C#",
         "type": "item",
         "ts.type": "composition",
+        "ts.outputToParent": "true",
         "ts.platform": "Avalonia",
         "ts.version": "1.0.0",
-        "ts.compositionFilter": "$frontendframework == MVVMToolkit & ts.type == project"
+        "ts.compositionFilter": "$projectType == Browser & $frontendframework == MVVMToolkit & ts.type == project"
     },
     "sourceName": "ts.ItemName",
     "preferNameDirectory": true,
@@ -28,19 +29,6 @@
             "type": "parameter",
             "replaces": "Param_ProjectName",
             "fileRename": "Param_ProjectName"
-        },
-        "Framework": {
-            "type": "parameter",
-            "description": "The target framework for the project.",
-            "datatype": "choice",
-            "choices": [
-                {
-                    "choice": "net8.0",
-                    "description": "Target net8.0"
-                }
-            ],
-            "replaces": "FrameworkParameter",
-            "defaultValue": "net8.0"
         }
     }
 }

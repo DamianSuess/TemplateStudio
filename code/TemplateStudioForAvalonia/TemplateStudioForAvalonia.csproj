@@ -204,7 +204,7 @@
     <Content Include="Templates\_comp\_shared\Proj.CSharp.iOS\Param_ProjectName.iOS\Main.cs">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\_shared\Proj.CSharp.Web\Param_ProjectName.Browser\Program.cs">
+    <Content Include="Templates\_comp\_shared\Proj.CSharp.Browser\Param_ProjectName.Browser\Program.cs">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Templates\_comp\MT\Project.CSharp.Android\Param_ProjectName.Android\MainActivity_postaction.cs">
@@ -270,7 +270,7 @@
     <Content Include="Templates\_catalog\projectTypes\Android.md">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_catalog\projectTypes\Web.md">
+    <Content Include="Templates\_catalog\projectTypes\Browser.md">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Templates\_comp\MT\Project.CSharp\Param_ProjectName_postaction.csproj">
@@ -285,10 +285,13 @@
     <Content Include="Templates\_comp\_shared\Proj.CSharp.Desktop\Param_ProjectName.Desktop\Param_ProjectName.Desktop.csproj">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\_shared\Proj.CSharp.Web\Param_ProjectName.Browser\Properties\launchSettings.json">
+    <Content Include="Templates\_comp\_shared\Proj.CSharp.Browser\Param_ProjectName.Browser\Properties\launchSettings.json">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\_shared\Proj.CSharp.Web\Param_ProjectName.Browser\runtimeconfig.template.json">
+    <Content Include="Templates\_comp\_shared\Proj.CSharp.Browser\Param_ProjectName.Browser\Properties\AssemblyInfo.cs">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\_shared\Proj.CSharp.Browser\Param_ProjectName.Browser\runtimeconfig.template.json">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Templates\_comp\_shared\Proj.CSharp.iOS\Param_ProjectName.iOS\Param_ProjectName.iOS.csproj">
@@ -393,31 +396,28 @@
     <Content Include="Templates\_comp\_shared\Proj.FSharp.iOS\Param_ProjectName.iOS\Resources\LaunchScreen.xib">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\_shared\Proj.FSharp.Web\Param_ProjectName.Browser\AppBundle\app.css">
+    <Content Include="Templates\_comp\_shared\Proj.FSharp.Browser\Param_ProjectName.Browser\wwwroot\app.css">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\_shared\Proj.FSharp.Web\Param_ProjectName.Browser\AppBundle\favicon.ico">
+    <Content Include="Templates\_comp\_shared\Proj.FSharp.Browser\Param_ProjectName.Browser\wwwroot\favicon.ico">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\_shared\Proj.FSharp.Web\Param_ProjectName.Browser\AppBundle\index.html">
+    <Content Include="Templates\_comp\_shared\Proj.FSharp.Browser\Param_ProjectName.Browser\wwwroot\index.html">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\_shared\Proj.FSharp.Web\Param_ProjectName.Browser\AppBundle\Logo.svg">
+    <Content Include="Templates\_comp\_shared\Proj.FSharp.Browser\Param_ProjectName.Browser\wwwroot\main.js">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\_shared\Proj.FSharp.Web\Param_ProjectName.Browser\AppBundle\main.js">
+    <Content Include="Templates\_comp\_shared\Proj.FSharp.Browser\Param_ProjectName.Browser\Param_ProjectName.Browser.fsproj">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\_shared\Proj.FSharp.Web\Param_ProjectName.Browser\Param_ProjectName.Browser.fsproj">
+    <Content Include="Templates\_comp\_shared\Proj.FSharp.Browser\Param_ProjectName.Browser\Program.fs">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\_shared\Proj.FSharp.Web\Param_ProjectName.Browser\Program.fs">
+    <Content Include="Templates\_comp\_shared\Proj.FSharp.Browser\Param_ProjectName.Browser\Properties\launchSettings.json">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\_shared\Proj.FSharp.Web\Param_ProjectName.Browser\Properties\launchSettings.json">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="Templates\_comp\_shared\Proj.FSharp.Web\Param_ProjectName.Browser\runtimeconfig.template.json">
+    <Content Include="Templates\_comp\_shared\Proj.FSharp.Browser\Param_ProjectName.Browser\runtimeconfig.template.json">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Templates\_comp\MT\Project.FSharp\.template.config\template.json">
@@ -447,10 +447,10 @@
     <Content Include="Templates\_comp\MT\Project.FSharp.iOS\Param_ProjectName.iOS\AppDelegate_postaction.fs">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\MT\Project.FSharp.Web\.template.config\template.json">
+    <Content Include="Templates\_comp\MT\Project.FSharp.Browser\.template.config\template.json">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\MT\Project.FSharp.Web\Param_ProjectName.Browser\Program_postaction.fs">
+    <Content Include="Templates\_comp\MT\Project.FSharp.Browser\Param_ProjectName.Browser\Program_postaction.fs">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Templates\_comp\MT\Project.FSharp\Param_ProjectName\Param_ProjectName.fsproj">
@@ -527,7 +527,7 @@
       <SubType>Designer</SubType>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_catalog\projectTypes\Web.xaml">
+    <Content Include="Templates\_catalog\projectTypes\Browser.xaml">
       <SubType>Designer</SubType>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -583,7 +583,7 @@
     <Content Include="Templates\Proj\Default.CSharp\ts.ProjectName\Assets\avalonia-logo.ico">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\MT\Project.CSharp.Web\Param_ProjectName.Browser\Program_postaction.cs">
+    <Content Include="Templates\_comp\MT\Project.CSharp.Browser\Param_ProjectName.Browser\Program_postaction.cs">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Templates\_comp\_shared\Proj.CSharp.Android\Param_ProjectName.Android\Icon.png">
@@ -628,7 +628,7 @@
     <Content Include="Templates\_comp\MT\Project.CSharp.Android\.template.config\template.json">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\MT\Project.CSharp.Web\.template.config\template.json">
+    <Content Include="Templates\_comp\MT\Project.CSharp.Browser\.template.config\template.json">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Templates\_comp\MT\Project.CSharp.iOS\.template.config\template.json">
@@ -637,25 +637,22 @@
     <Content Include="Templates\_comp\MT\Project.CSharp\.template.config\template.json">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\_shared\Proj.CSharp.Web\.template.config\template.json">
+    <Content Include="Templates\_comp\_shared\Proj.CSharp.Browser\.template.config\template.json">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\_shared\Proj.CSharp.Web\Param_ProjectName.Browser\AppBundle\app.css">
+    <Content Include="Templates\_comp\_shared\Proj.CSharp.Browser\Param_ProjectName.Browser\wwwroot\app.css">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\_shared\Proj.CSharp.Web\Param_ProjectName.Browser\AppBundle\favicon.ico">
+    <Content Include="Templates\_comp\_shared\Proj.CSharp.Browser\Param_ProjectName.Browser\wwwroot\favicon.ico">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\_shared\Proj.CSharp.Web\Param_ProjectName.Browser\AppBundle\index.html">
+    <Content Include="Templates\_comp\_shared\Proj.CSharp.Browser\Param_ProjectName.Browser\wwwroot\index.html">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\_shared\Proj.CSharp.Web\Param_ProjectName.Browser\AppBundle\Logo.svg">
+    <Content Include="Templates\_comp\_shared\Proj.CSharp.Browser\Param_ProjectName.Browser\wwwroot\main.js">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\_shared\Proj.CSharp.Web\Param_ProjectName.Browser\AppBundle\main.js">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="Templates\_comp\_shared\Proj.CSharp.Web\Param_ProjectName.Browser\Param_ProjectName.Browser.csproj">
+    <Content Include="Templates\_comp\_shared\Proj.CSharp.Browser\Param_ProjectName.Browser\Param_ProjectName.Browser.csproj">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Templates\_comp\_shared\Proj.CSharp.Desktop\.template.config\template.json">
@@ -676,7 +673,7 @@
     <Content Include="Templates\_comp\_shared\Proj.CSharp.Android\.template.config\template.json">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\_shared\Proj.FSharp.Web\.template.config\template.json">
+    <Content Include="Templates\_comp\_shared\Proj.FSharp.Browser\.template.config\template.json">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Templates\_catalog\frontendframeworks\ReactiveUI.xaml">
