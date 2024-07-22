@@ -17,7 +17,7 @@
 		<ProjectTypeTag>Desktop</ProjectTypeTag>
         <ProjectTypeTag>Avalonia</ProjectTypeTag>
         <ProjectTypeTag>Mobile</ProjectTypeTag>
-        <ProjectTypeTag>Web</ProjectTypeTag>
+        <ProjectTypeTag>Browser</ProjectTypeTag>
         <ProjectTypeTag>XAML</ProjectTypeTag>
 	</TemplateData>
 	<TemplateContent>

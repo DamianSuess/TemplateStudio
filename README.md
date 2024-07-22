@@ -1,4 +1,4 @@
-[![VS marketplace](https://img.shields.io/visual-studio-marketplace/v/AvaloniaTeam.TemplateStudioForAvalonia.svg?label=VS-Marketplace)](https://marketplace.visualstudio.com/items?itemName=AvaloniaTeam.TemplateStudioForAvalonia)
+﻿[![VS marketplace](https://img.shields.io/visual-studio-marketplace/v/AvaloniaTeam.TemplateStudioForAvalonia.svg?label=VS-Marketplace)](https://marketplace.visualstudio.com/items?itemName=AvaloniaTeam.TemplateStudioForAvalonia)
 # Template Studio for Avalonia
 
 Template Studio is a Visual Studio 2022 extension that accelerate the creation of new Avalonia apps using a wizard-based experience.
@@ -29,7 +29,7 @@ Template Studio approaches app creation using the following six attribute sets:
 
 First, on which platforms you are planning to run your app?
 
-Options: **Desktop**, **Web**, **Andoid**, **IOS**.
+Options: **Desktop**, **Browser**, **Andoid**, **IOS**.
 
 ### **App design pattern**
 

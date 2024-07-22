@@ -13,7 +13,7 @@
         "language": "F#",
         "type": "project",
         "ts.type": "project",
-        "ts.projecttype": "Desktop|Web|IOS|Android",
+        "ts.projecttype": "Desktop|Browser|IOS|Android",
         "ts.frontendframework": "ReactiveUI|MVVMToolkit",
         "ts.platform": "Avalonia",
         "ts.outputToParent": "true",
