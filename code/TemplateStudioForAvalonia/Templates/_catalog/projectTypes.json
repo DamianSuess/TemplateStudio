@@ -9,9 +9,9 @@
         "languages": [ "C#", "F#" ]
     },
     {
-        "name": "Web",
-        "displayName": "Web",
-        "summary": "This option allows you to run your project on Web using Web Assembly.",
+        "name": "Browser",
+        "displayName": "Browser",
+        "summary": "This option allows you to run your project on Browser using Web Assembly.",
         "author": "AvaloniaUI",
         "order": "2",
         "platform": "Avalonia",
