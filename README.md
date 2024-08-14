@@ -62,5 +62,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## Frameworks and libraries in generated code not created by our team
 
 ### Frameworks
+- [Prism.Avalonia](https://github.com/AvaloniaCommunity/Prism.Avalonia)
 - [MVVM Toolkit](https://aka.ms/mvvmtoolkit)
 - [ReactiveUI](https://github.com/reactiveui/ReactiveUI)
