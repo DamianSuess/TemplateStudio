@@ -28,7 +28,7 @@ Template Studio approaches app creation using the following six attribute sets:
 
 First, on which platforms you are planning to run your app?
 
-Options: **Desktop**, **Web**, **Andoid**, **IOS**.
+Options: **Desktop**, **Browser**, **Andoid**, **IOS**.
 
 ### **App design pattern**
 
@@ -62,5 +62,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### Frameworks
 
+- [Prism.Avalonia](https://github.com/AvaloniaCommunity/Prism.Avalonia)
 - [MVVM Toolkit](https://aka.ms/mvvmtoolkit)
 - [ReactiveUI](https://github.com/reactiveui/ReactiveUI)
