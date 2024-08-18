@@ -18,6 +18,7 @@
         <ProjectTypeTag>Avalonia</ProjectTypeTag>
         <ProjectTypeTag>Mobile</ProjectTypeTag>
         <ProjectTypeTag>Browser</ProjectTypeTag>
+        <ProjectTypeTag>Prism</ProjectTypeTag>
         <ProjectTypeTag>XAML</ProjectTypeTag>
 	</TemplateData>
 	<TemplateContent>

@@ -6,7 +6,7 @@
     "shortName": "CompiledBindings",
     "groupIdentity": "ts.Avalonia.Feat.CompiledBindings",
     "identity": "ts.Avalonia.Feat.CompiledBindings",
-    "description": "Compiled bindings is more perfomant and user-friendly option to bind your data in application.",
+    "description": "Compiled bindings is more performant and user-friendly option to bind your data in application.",
     "tags": {
         "language": "C#",
         "type": "item",
