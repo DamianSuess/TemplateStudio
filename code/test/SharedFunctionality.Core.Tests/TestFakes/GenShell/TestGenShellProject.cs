@@ -11,6 +11,8 @@ namespace Microsoft.Templates.Core.Test.TestFakes.GenShell
     {
         public bool GetActiveProjectIsWts() => true;
 
+        public bool IsActiveProjectAvalonia() => false;
+
         public bool IsActiveProjectWpf() => false;
 
         public bool IsActiveProjectWinUI() => false;

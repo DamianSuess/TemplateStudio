@@ -1,4 +1,5 @@
 [![VS marketplace](https://img.shields.io/visual-studio-marketplace/v/AvaloniaTeam.TemplateStudioForAvalonia.svg?label=VS-Marketplace)](https://marketplace.visualstudio.com/items?itemName=AvaloniaTeam.TemplateStudioForAvalonia)
+
 # Template Studio for Avalonia
 
 Template Studio is a Visual Studio 2022 extension that accelerate the creation of new Avalonia apps using a wizard-based experience.
@@ -14,8 +15,6 @@ To get started, install the extension, then select the corresponding Template St
 <figcaption>VS New Project Dialog (F#)</figcaption>
 
 ![VS New F# Project screenshot](https://github.com/AvaloniaUI/TemplateStudio/assets/53405089/42ac695f-a78d-4ea8-a6ec-12522677dc76)
-
-
 
 <figcaption>Template Studio for Avalonia (C#)</figcaption>
 
@@ -35,7 +34,7 @@ Options: **Desktop**, **Web**, **Andoid**, **IOS**.
 
 Next, what coding pattern do you want to use in your project.
 
-Options: **MVVM Toolkit**, **ReactiveUI**.
+Options: **MVVM Toolkit**, **ReactiveUI**, **Prism.Avalonia**.
 
 ![Template Studio C# design patterns](https://github.com/AvaloniaUI/TemplateStudio/assets/53405089/f1284435-b989-42d5-a476-a8719b2dc83d)
 
@@ -62,5 +61,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 ## Frameworks and libraries in generated code not created by our team
 
 ### Frameworks
+
 - [MVVM Toolkit](https://aka.ms/mvvmtoolkit)
 - [ReactiveUI](https://github.com/reactiveui/ReactiveUI)
